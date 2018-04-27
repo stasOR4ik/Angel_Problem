@@ -1,0 +1,15 @@
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\bin\Debug\Angel_Problem.exe.config
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\bin\Debug\Angel_Problem.exe
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\bin\Debug\Angel_Problem.pdb
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\MainWindow.g.cs
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\App.g.cs
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem_MarkupCompile.cache
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem_MarkupCompile.lref
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\MainWindow.baml
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.g.resources
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.Properties.Resources.resources
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.csproj.GenerateResource.cache
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.csproj.CoreCompileInputs.cache
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.exe
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.pdb
+C:\Users\Stas\source\repos\Angel_Problem\Angel_Problem\obj\Debug\Angel_Problem.csprojResolveAssemblyReference.cache
