@@ -11,10 +11,11 @@
             <RowDefinition Height="10*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Grid Name="Table" UIElement.MouseLeftButtonDown= "Table_MouseLeftButtonDown" Grid.Row="0" Width="800" Height="600">
-            
-        </Grid>
-             
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" >
+            <Grid Name="Table" UIElement.MouseLeftButtonDown= "Table_MouseLeftButtonDown" UIElement.MouseRightButtonDown="Table_MouseRightButtonDown"  Grid.Row="0" Width="1275" Height="1275">
+
+            </Grid>
+        </ScrollViewer>
         <Button Content="Start" Grid.Row="1" Height="56" Width="75"/>
     </Grid>
 </Window>
