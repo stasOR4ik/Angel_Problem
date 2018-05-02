@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Shapes;
 
 namespace Angel_Problem
 {
-    class Angel
+    class Devil
     {
-        public static int AngelPositionX { get; set; }
-
-        public static int AngelPositionY { get; set; }
+        public static int MoveCalculator { get; set; }
     }
 }

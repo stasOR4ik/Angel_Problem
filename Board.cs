@@ -8,6 +8,6 @@ namespace Angel_Problem
 {
     class Board
     {
-        public static Cell[,] feild = new Cell[85, 85];
+        public static Cell[,] Feild = new Cell[89, 89];
     }
 }

@@ -12,7 +12,7 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
         <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Visible" >
-            <Grid Name="Table" UIElement.MouseLeftButtonDown= "Table_MouseLeftButtonDown" UIElement.MouseRightButtonDown="Table_MouseRightButtonDown"  Grid.Row="0" Width="1275" Height="1275">
+            <Grid Name="Table" UIElement.MouseLeftButtonDown= "Table_MouseLeftButtonDown" UIElement.MouseRightButtonDown="Table_MouseRightButtonDown"  Grid.Row="0" Width="1305" Height="1305">
 
             </Grid>
         </ScrollViewer>
