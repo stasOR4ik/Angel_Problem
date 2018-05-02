@@ -29,7 +29,6 @@ namespace Angel_Problem
 
         private void Table_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            //DevilAlgorithm(e);
             SetNewAngelSquare(e);
         }
 
@@ -101,6 +100,7 @@ namespace Angel_Problem
                 (int, int) previosAngelProjectionForDistance4 = NearestPointToTheBorder(4); // for if in 130 line
                 (int, int) previosAngelProjectionForDistance3 = NearestPointToTheBorder(3);
                 (int, int) previosAngelProjectionForDistance2 = NearestPointToTheBorder(2);
+                bool IsPreviosAngelDistance4 = IsAngelNeareBorder(4);
                 bool IsPreviosAngelDistance3 = IsAngelNeareBorder(3);
                 bool IsPreviosAngelDistance2 = IsAngelNeareBorder(2);
                 Angel.AngelPositionX = getMouseAngelPositionX;
@@ -257,6 +257,10 @@ namespace Angel_Problem
                     {
                         SetDevilSquare(LeftOrRightPointFromAngel(previosAngelProjectionForDistance3, NearestPointToTheBorder(4)));
                     }
+                    else if (Angel.AngelPositionY == 6 && (Angel.AngelPositionX == 5 || Angel.AngelPositionX == 81))
+                    {
+                        SetDevilSquare((NearestPointToTheBorder(4).Item1, NearestPointToTheBorder(4).Item2 + 1));
+                    }
                     else
                     {
                         SetDevilSquare(LeftOrRightPointFromAngel(previosAngelProjectionForDistance5, NearestPointToTheBorder(4)));
@@ -274,11 +278,6 @@ namespace Angel_Problem
         {
             Board.Feild[square.Item1, square.Item2].CellCondition = CellCondition.DEVIL;
             Board.Feild[square.Item1, square.Item2].Square.Fill = Brushes.Red;
-        }
-        
-        private void DevilAlgorithm(MouseButtonEventArgs e)
-        {
-
         }
 
         private void SwitchRow(int X, int constY)
@@ -377,7 +376,6 @@ namespace Angel_Problem
         {
             if (previousPoint.Item1 - nearestPointToTheBoder.Item1 == 1)
             {
-                
                 return (nearestPointToTheBoder.Item1 - 1, nearestPointToTheBoder.Item2);
             }
             else if (previousPoint.Item1 - nearestPointToTheBoder.Item1 == -1)
